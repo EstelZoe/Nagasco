@@ -45,7 +45,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <UtilityPole size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Design, procurement, and logistics for electrical infrastructure projects
                         </p>
                     </div>
@@ -57,7 +57,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <Warehouse size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Construction of 33kV and 11kV overhead power lines for efficient power transmission.
                         </p>
                     </div>
@@ -69,7 +69,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <Cable size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Underground cable laying to enhance power distribution networks.
                         </p>
                     </div>
@@ -81,7 +81,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <UtilityPole size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Installation of distribution transformers to support electricity supply systems.
                         </p>
                     </div>
@@ -93,7 +93,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <UtilityPole size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Development of low-voltage distribution networks for both urban and rural electrification.
                         </p>
                     </div>
@@ -105,7 +105,7 @@ const Services = () => {
                         <div className="w-14 h-14 mx-auto flex items-center justify-center bg-blue-300 text-blue-800 rounded-full mb-4">
                             <UtilityPole size={26} />
                         </div>
-                        <p className="text-black text-xl">
+                        <p className="text-black lg:text-[16px] text-[15px]">
                             Mass energy meter replacement to improve metering accuracy and efficiency Reliable support and maintenance for your systems and infrastructure.
                         </p>
                     </div>
