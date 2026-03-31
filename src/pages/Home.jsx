@@ -159,7 +159,7 @@ const Home = () => {
                         </span>
 
                         <h2 className="text-4xl md:text-4xl font-bold text-gray-900 mt-4 mb-4">
-                            Reliable Electrical & Solar Services
+                            Powering the Future of Ghana
                         </h2>
 
                         <p className="lg:text-[16px] text-[15px] text-gray-600 mb-6">
