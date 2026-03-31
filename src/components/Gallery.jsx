@@ -70,7 +70,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-100" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 2 */}
@@ -78,7 +78,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-200" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal2} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 3 */}
@@ -86,7 +86,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-300" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal3} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 4 */}
@@ -94,7 +94,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-400" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal4} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 5 */}
@@ -102,7 +102,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-500" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal5} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 6 */}
@@ -110,7 +110,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-600" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal6} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 7 */}
@@ -118,7 +118,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-700" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal7} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0 "></div>
                         </div>
 
                         {/* CARD 8 */}
@@ -126,7 +126,7 @@ const Gallery = () => {
                             visible ? "opacity-100 translate-y-0 delay-800" : "opacity-0 translate-y-10"
                         }`}>
                             <img src={gal8} className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                            <div className="absolute inset-0 bg-black/40"></div>
+                            <div className="absolute inset-0"></div>
                         </div>
 
                     </div>

@@ -22,7 +22,7 @@ const slides = [
     {
         image: h4,
         title: "Reliable Power. Proven Expertise",
-        subtitle: "Nagasco Engineering Ltd delivers high-quality electrical engineering solutions—from power lines to distribution systems—backed by experience, safety, and excellence.",
+        subtitle: "Nagasco Engineering Ltd delivers high-quality electrical engineering solutions from power lines to distribution systems, backed by experience, safety, and excellence.",
     },
     {
         image: h5,
