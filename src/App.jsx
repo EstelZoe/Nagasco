@@ -1,10 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-black">
-      <h1 className="text-5xl font-bold text-orange-500">
-        Tailwind is Working 🚀
-      </h1>
-    </div>
+    <Router>
+      <Navbar />
+ <ScrollToTop /> 
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
