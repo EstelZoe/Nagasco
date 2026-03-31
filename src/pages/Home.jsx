@@ -36,7 +36,6 @@ const slides = [
     },
 ];
 
-const extendedSlides = [...slides, ...slides];
 
 const Home = () => {
     const [current, setCurrent] = useState(0);
@@ -49,7 +48,7 @@ const Home = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev + 1) % slides.length);
-        }, 4000);
+        }, 6000);
 
         return () => clearInterval(interval);
     }, []);
@@ -81,36 +80,54 @@ const Home = () => {
 
             {/* HERO SECTION */}
             <div className="relative w-full h-screen overflow-hidden">
-                <div
-                    className={`flex h-full ${current === slides.length
-                        ? ""
-                        : "transition-transform duration-1000 ease-linear"
-                        }`}
-                    style={{ transform: `translateX(-${current * 100}%)` }}
-                >
-                    {extendedSlides.map((slide, index) => (
-                        <div key={index} className="w-full h-screen flex-shrink-0 relative">
+                {slides.map((slide, index) => (
+                    <div
+                        key={index}
+                        className={`absolute inset-0 w-full h-full transition-opacity duration-3000 ease-in-out ${current === index ? "opacity-100 z-10" : "opacity-0 z-0"
+                            }`}
+                    >
+                        <img
+                            src={slide.image}
+                            alt=""
+                            className="w-full h-full object-cover"
+                        />
 
-                            <img
-                                src={slide.image}
-                                alt=""
-                                className="w-full h-full object-cover"
-                            />
+                        <div className="absolute inset-0 bg-black/40"></div>
 
-                            <div className="absolute inset-0 bg-black/40"></div>
-
-                            <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 text-white">
-                                <h1 className="text-3xl md:text-5xl font-bold mb-4">
-                                    {slide.title}
-                                </h1>
-                                <p className="text-lg md:text-xl max-w-2xl">
-                                    {slide.subtitle}
-                                </p>
-                            </div>
-
+                        <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 text-white">
+                            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+                                {slide.title}
+                            </h1>
+                            <p className="text-lg md:text-xl max-w-2xl">
+                                {slide.subtitle}
+                            </p>
+                            {index === 0 && (
+                                <a
+                                    href="#services"
+                                    className="mt-6 px-6 py-3 bg-blue-900 hover:bg-blue-800 text-white rounded-lg transition inline-block"
+                                >
+                                    Read More
+                                </a>
+                            )}
+                            {index === 1 && (
+                                <a
+                                    href="#gallery"
+                                    className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition inline-block"
+                                >
+                                    View Gallery
+                                </a>
+                            )}
+                            {index === 2 && (
+                                <Link
+                                    to="/contact"
+                                    className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition inline-block"
+                                >
+                                    Contact Us
+                                </Link>
+                            )}
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
 
             {/* ABOUT SECTION */}
@@ -145,13 +162,13 @@ const Home = () => {
                             Reliable Electrical & Solar Services
                         </h2>
 
-                        <p className="text-xl text-gray-600 mb-6">
+                        <p className="lg:text-[16px] text-[15px] text-gray-600 mb-6">
                             Nagasco Engineering Ltd is a registered company under the Companies Code of the Republic of Ghana. We are classified by the Electricity Company of Ghana (ECG) and certified as a Fanning-Out Company under the Kaneshie District.
 
                             We are also a proud member of the Ghana Electrical Contractors Association and hold an “E” classification from the Ministry of Works
                         </p>
 
-                        <p className="text-xl text-gray-600 mb-6">
+                        <p className="lg:text-[16px] text-[15px] text-gray-600 mb-6">
                             With extensive project experience, Nagasco Engineering Ltd is equipped with the right tools, technical expertise, and industry knowledge to deliver top-quality electrical engineering solutions.
                         </p>
 
@@ -172,7 +189,7 @@ const Home = () => {
             <Services />
 
             {/* GALLERY SECTION */}
-          <Gallery/>
+            <Gallery />
             <Testimonials />
             <Partnership />
             <Footer />
