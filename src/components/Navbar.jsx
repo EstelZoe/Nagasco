@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/NAGA LOGO 3.png";
+import logo from "../assets/images/naglogo1.png";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {

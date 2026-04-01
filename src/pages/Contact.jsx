@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import contactHero from "../assets/images/nagcon.jpeg";
+import contactHero from "../assets/images/contact.png";
 import Footer from "../components/Footer";
 import FAQ from "../components/FAQs";
 
@@ -91,7 +91,7 @@ export default function Contact() {
 
           <div className="space-y-4 text-lg md:text-xl max-w-x">
             <p>📍 GA-308-9583 14 Boame Street, North Kaneshie </p>
-            <p>📞  0244-585-086 / 0503-848-098</p>
+            <p>📞  0244-585-086 / 0539-447-580</p>
             <p>✉️ nagascoengineeringltd@gmail.com</p>
 
           </div>

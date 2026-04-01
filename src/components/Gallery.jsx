@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import gal from "../assets/images/naga.png";
 import gal2 from "../assets/images/nag2.png";
-import gal3 from "../assets/images/nag3.png";
+import gal3 from "../assets/images/standing.jpeg";
 import gal4 from "../assets/images/nag4.png";
 import gal5 from "../assets/images/nag5.png";
 import gal6 from "../assets/images/nag6.png";

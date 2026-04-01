@@ -46,7 +46,7 @@ const Footer = () => {
                     <div>
                         <p className="font-semibold mb-3">CONTACT INFORMATION</p>
                         <p className="text-white/70">0244-585-086  </p>
-                        <p className="text-white/70">0503-848-098</p>
+                        <p className="text-white/70">0539-447-580</p>
                          <p className="text-white/70"> nagascoengineeringltd@gmail.com</p>
                     </div>
 
