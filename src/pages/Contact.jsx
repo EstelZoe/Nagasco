@@ -90,7 +90,8 @@ export default function Contact() {
           </p>
 
           <div className="space-y-4 text-lg md:text-xl max-w-x">
-            <p>📍 GA-308-9583 14 Boame Street, North Kaneshie </p>
+            <p>📍 GA-308-9583 </p>
+            <p>📍 14 Boame Street, North Kaneshie</p>
             <p>📞  0244-585-086 / 0539-447-580</p>
             <p>✉️ nagascoengineeringltd@gmail.com</p>
 
